@@ -5,6 +5,6 @@ public class NumberDivider {
         new NumberDivider().divide(16);
     }
     void divide(int toBeDivided) {
-        System.out.println(toBeDivided/5);
+        System.out.println((float) toBeDivided/5);
     }
 }
